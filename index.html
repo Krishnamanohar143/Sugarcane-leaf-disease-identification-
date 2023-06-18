@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio Recording</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Audio Recording</h1>
+    <div id="recording-controls">
+        <button id="start-button" onclick="startRecording()">Start Recording</button>
+        <button id="stop-button" onclick="stopRecording()" disabled>Stop Recording</button>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

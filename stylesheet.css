@@ -1,0 +1,26 @@
+#recording-controls {
+    margin-bottom: 20px;
+}
+
+#start-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#stop-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+#stop-button:disabled {
+    background-color: lightgray;
+    cursor: default;
+}
